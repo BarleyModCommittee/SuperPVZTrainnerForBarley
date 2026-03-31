@@ -45,12 +45,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_67A774E927CF43698208399BB8C6A588"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_6C81118DB09E40538C7049C4F58A40FA"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -124,19 +118,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F3B38E0C34A14B34A467142811438A93"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_D0D64491248845CB81E4A250D4612A48"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C45BCE049CD54B82AEC2C6663249E360"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -155,12 +137,6 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_14B548E903CB34144735D72DE6E89855"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_67A774E927CF43698208399BB8C6A588"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -185,6 +161,18 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_18ADA40FA7EA4942BBE67E8DA52BD132"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_F3B38E0C34A14B34A467142811438A93"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_C45BCE049CD54B82AEC2C6663249E360"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -289,6 +277,11 @@
             "AssemblyAsmDisplayName" = "8:pvz_cnv2_font_convarter, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
+                    "_14B548E903CB34144735D72DE6E89855"
+                    {
+                    "Name" = "8:pvz_cnv2_font_convarter.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:pvz_cnv2_font_convarter.dll"
             "TargetName" = "8:"
@@ -315,6 +308,11 @@
             "AssemblyAsmDisplayName" = "8:IZFormatSetter, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
+                    "_18ADA40FA7EA4942BBE67E8DA52BD132"
+                    {
+                    "Name" = "8:IZFormatSetter.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:..\\WPFTrainner\\WPFTrainner\\bin\\Release\\Extension\\IZFormatSetter.dll"
             "TargetName" = "8:"
@@ -341,6 +339,11 @@
             "AssemblyAsmDisplayName" = "8:IrisSkin4, Version=2006.3.22.45, Culture=neutral, PublicKeyToken=127be25a6db25e07, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
+                    "_26548349D6F5475E93CDD7F9EB8D7710"
+                    {
+                    "Name" = "8:IrisSkin4.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:..\\WPFTrainner\\WPFTrainner\\bin\\Release\\Extension\\IrisSkin4.dll"
             "TargetName" = "8:"
@@ -367,6 +370,11 @@
             "AssemblyAsmDisplayName" = "8:TexturedFontEditor, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
+                    "_5585F79F807F7D811EDEB6B42F352E54"
+                    {
+                    "Name" = "8:TexturedFontEditor.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:TexturedFontEditor.dll"
             "TargetName" = "8:"
@@ -393,34 +401,13 @@
             "AssemblyAsmDisplayName" = "8:pvz_cnv2_font_convarter, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
+                    "_648DB3CEAE2741939F250E051399F033"
+                    {
+                    "Name" = "8:pvz_cnv2_font_convarter.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:..\\WPFTrainner\\WPFTrainner\\bin\\Release\\Extension\\pvz_cnv2_font_convarter.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_432AE3424709426C8471924A86DDCD01"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_67A774E927CF43698208399BB8C6A588"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:PakTool, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                }
-            "SourcePath" = "8:..\\WPFTrainner\\WPFTrainner\\bin\\Release\\Extension\\PakTool.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_432AE3424709426C8471924A86DDCD01"
@@ -465,6 +452,11 @@
             "AssemblyAsmDisplayName" = "8:IrisSkin4, Version=2006.3.22.45, Culture=neutral, PublicKeyToken=127be25a6db25e07, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
+                    "_7FABF513B2FEB187DFEAEE555523958B"
+                    {
+                    "Name" = "8:IrisSkin4.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:IrisSkin4.dll"
             "TargetName" = "8:"
@@ -491,6 +483,11 @@
             "AssemblyAsmDisplayName" = "8:PVZTools, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
+                    "_80824269D4B848F2AB1CBA80485D683D"
+                    {
+                    "Name" = "8:PVZTools.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:..\\WPFTrainner\\WPFTrainner\\bin\\Release\\Extension\\PVZTools.dll"
             "TargetName" = "8:"
@@ -639,6 +636,11 @@
             "AssemblyAsmDisplayName" = "8:TexturedFontEditor, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
+                    "_D0D64491248845CB81E4A250D4612A48"
+                    {
+                    "Name" = "8:TexturedFontEditor.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:..\\WPFTrainner\\WPFTrainner\\bin\\Release\\Extension\\TexturedFontEditor.dll"
             "TargetName" = "8:"
@@ -757,7 +759,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:终极植物大战僵尸修改器"
         "ProductCode" = "8:{A7989C64-D690-4B10-80E8-578ACB84CDBB}"
-        "PackageCode" = "8:{3964C7D5-CA3B-4CEE-B83F-E582C000ED3D}"
+        "PackageCode" = "8:{86443110-7B7A-4FDC-8B2F-7E25BCD0DA41}"
         "UpgradeCode" = "8:{00D6DCDD-5817-41C4-BB06-FEB87C98CF8A}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
