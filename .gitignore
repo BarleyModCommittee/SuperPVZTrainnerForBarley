@@ -49,3 +49,4 @@
 *.log
 Setup/Debug/setup.exe
 Setup/Debug/Setup.msi
+.vs/
