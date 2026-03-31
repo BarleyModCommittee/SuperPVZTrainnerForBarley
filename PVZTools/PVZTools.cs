@@ -45,24 +45,6 @@ namespace PVZTools
         }
     }
 
-    public class OpenUserdata : ITrainerExtensionButton
-    {
-        public string Text => "打开存档目录";
-
-        public string ToolTip => null;
-
-        public string[] TextLang => new[] { "打开存档目录", "Open savedata directory" };
-
-        public string[] ToolTipLang => new string[0];
-
-        public void ButtonOnClick()
-        {
-            string path = @"C:\ProgramData\PopCap Games\PlantsVsZombies\userdata";
-            if(Directory.Exists(path))
-                Process.Start(path);
-        }
-    }
-
     public class LawnStringsManagerPlugIn : ITrainerExtensionUserControl
     {
         public string Text => "LawnStrings管理器";
@@ -158,22 +140,6 @@ namespace PVZTools
             owner.Width = 340;
             owner.Height = 275;
             canvas.Children.Add(usercon);
-        }
-    }
-
-    public class GameDownloadPage : ITrainerExtensionButton
-    {
-        public string Text => "游戏资源下载";
-
-        public string ToolTip => "提供植物大战僵尸游戏的下载地址";
-
-        public string[] TextLang => new[] { "游戏资源下载", "Resources download" };
-
-        public string[] ToolTipLang => new[] { "提供植物大战僵尸游戏的下载地址", "www.lonelystar.org/download.htm" };
-
-        public void ButtonOnClick()
-        {
-            Process.Start("www.lonelystar.org/download.htm");
         }
     }
 }
