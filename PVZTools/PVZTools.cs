@@ -96,27 +96,4 @@ namespace PVZTools
             Instance.Show();
         }
     }
-
-    public class PlantMoveControlerPlugIn : ITrainerExtensionUserControl
-    {
-        public string Text => "键盘控制植物";
-
-        public string[] TextLang => new[] { "键盘控制植物", "Keyboard control plant" };
-
-        public string[] ToolTipLang => new[] { "允许通过按键来控制场上的2个植物", "Allows control of 2 plants on the field via the keyboard" };
-
-        public string ToolTip => "允许通过按键来控制场上的2个植物";
-
-        public void Layout(Window owner, Canvas canvas)
-        {
-            //设置控件位置
-            var usercon = new PlantMoveControler();
-            Canvas.SetLeft(usercon, 20);
-            Canvas.SetTop(usercon, 60);
-            //修改窗口大小
-            owner.Width = 340;
-            owner.Height = 275;
-            canvas.Children.Add(usercon);
-        }
-    }
 }

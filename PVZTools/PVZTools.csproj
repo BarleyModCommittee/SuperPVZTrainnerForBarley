@@ -60,9 +60,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GlobalKeyboardHook.cs" />
-    <Compile Include="PlantMoveControler.xaml.cs">
-      <DependentUpon>PlantMoveControler.xaml</DependentUpon>
-    </Compile>
     <Compile Include="PVZTools.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -79,12 +76,6 @@
       <Project>{09098c39-9152-4f2f-a042-a4e4f504e96d}</Project>
       <Name>ITrainerExtension</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Page Include="PlantMoveControler.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
