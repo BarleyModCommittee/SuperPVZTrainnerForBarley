@@ -45,29 +45,6 @@ namespace PVZTools
         }
     }
 
-    public class LawnStringsManagerPlugIn : ITrainerExtensionUserControl
-    {
-        public string Text => "LawnStrings管理器";
-
-        public string[] TextLang => new[] { "LawnStrings管理器", "LawnStrings manager" };
-
-        public string[] ToolTipLang => new[] { "可用于动态修改LawnStrings的内容", "It can be used to dynamically modify the contents of LawnStrings" };
-
-        public string ToolTip => "可用于动态修改LawnStrings的内容";
-
-        public void Layout(Window owner, Canvas canvas)
-        {
-            //设置控件位置
-            var usercon = new LawnStringsManager();
-            Canvas.SetLeft(usercon, 20);
-            Canvas.SetTop(usercon, 60);
-            //修改窗口大小
-            owner.Width = 540;
-            owner.Height = 695;
-            canvas.Children.Add(usercon);
-        }
-    }
-
     public class OpenTexturedFontEditor : ITrainerExtensionButton
     {
         public string Text => "纹理化字体生成工具";
